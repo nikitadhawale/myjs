@@ -18,6 +18,17 @@
 let isLoggedIn = "";;
 
 let boolenIsLoggedIn = Boolean(isLoggedIn);
-console.log(boolenIsLoggedIn);
+// console.log(boolenIsLoggedIn);
+
+//1 => true 0 => false
+//" => false
+// "abc" => "true"
+
+let someNumber = true;
+
+let stringNumber = String(someNumber);
+console.log(stringNumber);
+console.log(typeof stringNumber);
+
 
 
