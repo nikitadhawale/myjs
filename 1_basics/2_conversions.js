@@ -27,8 +27,25 @@ let boolenIsLoggedIn = Boolean(isLoggedIn);
 let someNumber = true;
 
 let stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// ***** oprations *****//
+
+let value = 4;
+let negValue = -value;
+// console.log(negValue);
+
+let x = 3;
+console.log(x);
+x++;
+console.log(x);
+
+
+
+
+
 
 
 
