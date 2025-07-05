@@ -50,6 +50,38 @@ myFunction();
 
 console.log(typeof fruits);
 
+//*************************\\
+
+//stack(primitive)
+// store the copy od varibles
+
+let myname = "nikita";
+
+let anotherName = myname;
+anotherName = "john";
+
+console.log(myname);
+console.log(anotherName);
+
+
+
+// Heap(non-primitive)
+// store the reference of varibles
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@upi"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "nik@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
 
 
 
