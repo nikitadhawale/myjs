@@ -55,11 +55,11 @@ users[1].email
 console.log(tinderUser);
 
 //keys
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
 //every element has own array
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
 
@@ -69,4 +69,40 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 //  console.log("name is not there");
 // }
 
+
+//de-structuring object
+// const course = {
+//     coursename: "js in hindi",
+//     price: "999",
+//     courseInstructor: "Nikita"
+// }
+
+//call object
+const {courseInstructor: inst} = course;
+
+// console.log(courseInstructor);
+console.log(inst);
+
+//react de-structing 
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "Nikita")
+
+
+//API
+
+//json 
+// {
+//     "name": "nik",
+//     "coursename": "js in hind",
+//     "price": "free"
+// }
+
+//array api call
+[
+    {}
+    {}
+]
 
