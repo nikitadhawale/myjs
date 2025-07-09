@@ -104,5 +104,6 @@ console.log(inst);
 [
     {}
     {}
+    {}
 ]
 
