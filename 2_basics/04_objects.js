@@ -102,8 +102,8 @@ console.log(inst);
 
 //array api call
 [
-    {}
-    {}
+    {},
+    {},
     {}
 ]
 
