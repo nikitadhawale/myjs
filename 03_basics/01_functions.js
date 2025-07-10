@@ -38,8 +38,39 @@ function loginUserMessage(username = "Nik"){
 }
 
 // console.log(loginUserMessage("Nikita"));
-console.log(loginUserMessage("nikita"));
+// console.log(loginUserMessage("nikita"));
 
 
+//(...num) concept of rest that take all values
+function calculateCartPrice(...number1) {
+    return number1
+}
+// console.log(calculateCartPrice(200, 400, 500));
+
+const user = {
+    username: "Nikita",
+    price: 99
+}
+
+function handleObject(anyobject){
+   console.log(`Username is  ${anyobject.username} and  Price is ${anyobject.price}`);
+}
+
+// handleObject(user);
+// handleObject({
+//     username: "Nik",
+//     price: 330
+// });
+
+
+//array with function
+
+const myNewArray = [200, 600, 900];
+
+function returnSecondValue(getarray) {
+    return getarray[1]
+}
+
+console.log(returnSecondValue([200, 800, 600, 900, 300]));
 
 
