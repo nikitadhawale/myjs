@@ -42,7 +42,30 @@ const balance = 1000
 
 //nested if
 
-if( balance < 500){
-  log
+// if( balance < 500){
+//   console.log("less than 500");
+// } else if(balance < 750){
+//   console.log("less than 750");
+// } else if(balance < 900){
+//   console.log("less than 950");
+// } else {
+//   console.log("less than 1200");
+// }
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+
+//in & AND all condition must be ture otherwise not excute
+if(userLoggedIn && debitCard && loggedInFromGoogle){
+   console.log("Allow to buy courese");
 }
+
+//OR one should be true 
+if(loggedInFromGoogle || loggedInFromEmail){
+   console.log("user Logged In");
+}
+
 
